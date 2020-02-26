@@ -1,0 +1,47 @@
+{
+  "name": "adventurer-guide",
+  "version": "0.12.1",
+  "description": "Adventurer Guide",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "36node/adventurer-guide",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "gitbook build ./src ./build",
+    "format": "prettier --write 'src/**'",
+    "release": "standard-version",
+    "server": "serve ./build",
+    "start": "gitbook serve ./src"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.md": [
+      "npm run format",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^6.1.0",
+    "@commitlint/config-conventional": "^6.1.0",
+    "gitbook-cli": "^2.3.2",
+    "lint-staged": "^8.1.5",
+    "prettier": "1.17.1",
+    "serve": "^11.3.0",
+    "standard-version": "^6.0.1"
+  },
+  "dependencies": {}
+}
