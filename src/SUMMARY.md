@@ -6,5 +6,6 @@
 - [报酬](bounty.md)
 - [评审](review.md)
 - [DevOps](devops.md)
+- [后端任务开发和验收](service-issue-devops.md)
 - [项目](pm.md)
 - [招聘](recruit.md)
