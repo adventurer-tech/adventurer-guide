@@ -5,7 +5,7 @@ defaults: &defaults
   environment:
     TZ: "Asia/Shanghai"
   docker:
-    - image: circleci/node:12
+    - image: circleci/node:14
 
 jobs:
   build:
