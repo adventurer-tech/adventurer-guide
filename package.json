@@ -35,13 +35,13 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "gitbook-cli": "^2.3.2",
-    "lint-staged": "^10.0.8",
-    "prettier": "1.19.1",
-    "serve": "^11.3.0",
-    "standard-version": "^7.1.0"
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "serve": "^11.3.2",
+    "standard-version": "^9.0.0"
   },
   "dependencies": {}
 }
