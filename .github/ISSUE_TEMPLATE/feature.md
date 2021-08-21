@@ -1,34 +1,22 @@
 ---
 name: feature
-about: 产品需求
-title: "[feature] 需求一句话"
+about: 发布任务
+title: "[subject] xxxx"
 labels: "feature"
 assignees: ""
 ---
 
-### 简介
+<!--
+  有时候可以用一个清单来帮助执行者追踪任务的进度。
+-->
 
-在此用几句话简述需求
+- [ ] 在此用几句话简述需要完成的事情
 
-### 截止日期（选填）
-
-deadline
-
-### 原型说明 (选填)
-
-- 截图加说明
-- Axure 链接
-
-### 设计稿说明（选填）
-
-- 截图加说明
-- 蓝湖链接
-
-### 开发建议（选填）
+### 开发说明
 
 - 开发建议 1
 - 开发建议 2
 
-### 其他
+### 相关资料
 
-在此描述其他备注信息
+- [some epic #4](https://github.com/adventurer-tech/roadmap/issues/4)
