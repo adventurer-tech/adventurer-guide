@@ -11,22 +11,7 @@ on:
       - "main"
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: bahmutov/npm-install@v1
-      - name: Eslint
-        run: yarn lint
-        env:
-          CI: true
-      - name: Unit Test
-        run: yarn test --coverage
-        env:
-          NODE_ENV: test
-
   docker:
-    needs: [test]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,7 +21,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ${{ secrets.ALI_REGISTRY }}/36node/adventurer-guide
+            ${{ secrets.ALI_REGISTRY }}/adventurer/adventurer-guide
           # generate Docker tags based on the following events/attributes
           tags: |
             type=ref,event=branch
