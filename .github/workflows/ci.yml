@@ -21,7 +21,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ${{ secrets.ALI_REGISTRY }}/adventurer/adventurer-guide
+            ${{ secrets.ALI_REGISTRY }}/adventurer/guide
           # generate Docker tags based on the following events/attributes
           tags: |
             type=ref,event=branch
