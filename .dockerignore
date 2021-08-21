@@ -1,0 +1,9 @@
+*
+!public
+!src
+!Dockerfile
+!.env*
+!craco.config.js
+!jsconfig.json
+!package.json
+!yarn.lock

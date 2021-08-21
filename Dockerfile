@@ -1,10 +1,20 @@
-FROM zzswang/docker-nginx-react:v0.10.7
+FROM node:16-alpine3.11 AS dev
 
-ARG VERSION
+# install tools and deps for node-gyp
+RUN apk add --no-cache --virtual .gyp \
+  python \
+  make \
+  g++ \
+  jq
+
+WORKDIR /app
+COPY ./ ./
+RUN yarn install
+RUN NODE_ENV=production VERSION=`jq .version package.json` yarn build
+
+FROM 36node/nginx-react:0.1
 
 ENV DEBUG=off \
-  APP_VERSION=${VERSION} \
-  NODE_ENV=production \
-  APP_PORT=80
+    NODE_ENV=production
 
-COPY ./build /app
+COPY --from=dev /app/build /app
