@@ -18,7 +18,12 @@
 
 https://hall.adventurer.tech
 
-没有邀请码？赶紧给 hr@36node.com 发邮件申请吧，记得附上您的简历, 详情请[查看招聘环节](recruit.md)
+没有邀请码？赶紧给 hr@36node.com 发邮件申请吧，附上您的简历, 详情请[查看招聘环节](recruit.md)
+
+或者扫描如下二维码，发送简历
+
+![](./assets/wx-code-zzswang.png)
+
 
 ## 文档地图
 

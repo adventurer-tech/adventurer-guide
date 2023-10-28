@@ -83,6 +83,8 @@ api.navinfo.com/some-service/v0
 api.pudongbus.36node.com/bus-core/v0
 ```
 
+通常为了减少跨域的消耗，所有的服务 api 同时支持 `*.{domain}/some-service/v0` 的方式
+
 我们把前端称为 app, 以 life 和 bus project 为例
 
 ```sh

@@ -15,7 +15,7 @@
     "format": "prettier --write 'src/**'",
     "release": "standard-version",
     "server": "serve ./build",
-    "start": "gitbook serve ./src"
+    "start": "gitbook serve ./src --watch"
   },
   "commitlint": {
     "extends": [

@@ -3,7 +3,7 @@
 本工程由 gitbook 驱动，用于生成《冒险者指南》，可以按照如下方式贡献文档
 
 ```sh
-git clone git@github.com:36node/adventurer-guide.git
+fork & clone
 cd adventurer-guide
 yarn
 ```
@@ -15,6 +15,8 @@ yarn start
 ```
 
 启动后，可以在浏览器实时查看文档
+
+http://localhost:4000
 
 文档完成后，通过一下方式提交：
 
