@@ -50,10 +50,10 @@
 
 [use-fork-and-pr](./use-fork-and-pr.md)
 
-领取到任务后的实际的流程：
+领取到任务后的流程：
 
 - 假设领取到一个新增 todo-list 的功能的任务。
-- Fork 到你自己的名字空间下， 从主分支 checkout 一个分支，命名为 feat/deadline；分支名必须以 feat 开头，如果是 fix bug，则以 fix 开头，类似 fix/a-typo-bug。
+- Fork 到你自己的名字空间下， 从主分支 checkout 一个分支，命名为 feat/todo-list；分支名必须以 feat 开头，如果是 fix bug，则以 fix 开头，类似 fix/a-typo-bug。
 - 开发完成后，本地测试，调整代码，如有必要可以和产品远程 share 屏幕讨论。
 - 推送分支 `git push -u origin feature/deadline`。
 - 然后在 github 上提交 pull request， reviewer 选对应的架构师；这时候分支会被自动 build & test；分支 review 过程中，根据 comment 意见，讨论并修改，然后再提交。
