@@ -7,6 +7,6 @@
 - [评审](review.md)
 - [DevOps](devops.md)
 - [采用 Fork&PR 的方式](use-fork-and-pr.md)
-- [后端任务开发和验收](service-issue-devops.md)
+<!-- - [后端任务开发和验收](service-issue-devops.md) -->
 - [项目](pm.md)
 - [招聘](recruit.md)
