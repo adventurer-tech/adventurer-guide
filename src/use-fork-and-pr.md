@@ -83,7 +83,7 @@ gh create pr
 
 ## 合并上游修改
 
-请时刻记住，`origin repo`（我们可以称之为upsteram）会不断更新前进，我们在每次开展新工作之前，尽量都要与`upstream`保持同步。同步也很简单，因为我们保持了`main`分支的纯洁，不会产生不良后果。
+请时刻记住，`origin repo`(我们可以称之为upstream)会不断更新前进，我们在每次开展新工作之前，尽量都要与`upstream`保持同步。同步也很简单，因为我们保持了`main`分支的纯洁，不会产生不良后果。
 
 ![](./assets/sync-upstream.png)
 
